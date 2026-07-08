@@ -4,7 +4,10 @@ const Form = () => {
 const [title, setTitle] = useState('')
 const [details, setdetails] = useState('')
 const [task, settask] = useState([])
-     const submitHander=(e)=>{
+
+
+
+const submitHander=(e)=>{
         e.preventDefault();
         const copytask=[...task]
        copytask.push({title,details})

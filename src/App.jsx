@@ -7,12 +7,10 @@ const App = () => {
   
 
 
-
   return (
     <div >
     <Form/>
-      
-      
+       
     </div>
   )
 }
